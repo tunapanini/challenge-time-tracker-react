@@ -41,8 +41,10 @@
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-storyshots": "^5.3.18",
     "@storybook/addon-viewport": "^5.3.18",
     "@storybook/react": "^5.3.18",
-    "babel-loader": "^8.1.0"
+    "babel-loader": "^8.1.0",
+    "react-test-renderer": "^16.13.1"
   }
 }

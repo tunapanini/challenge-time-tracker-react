@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="5px" viewBox="0 0 8 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Arrow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Timetracker" transform="translate(-1411.000000, -34.000000)" fill="#0E60F9">
+            <g id="Top-Bar_timesheets">
+                <g id="profile" transform="translate(1241.000000, 12.000000)">
+                    <path d="M171.597239,26 L171.578,25.997 L171.502677,25.992021 C171.486839,25.9893985 171.471209,25.9861482 171.455813,25.9822981 C171.414009,25.9720285 171.374015,25.9570456 171.336249,25.9381539 C171.136928,25.8394633 171,25.6339681 171,25.4027615 L171,20.5972385 C171,20.3003774 171.225439,20.0541031 171.505032,20.0078168 L171.6,20 C171.931371,20 172.2,20.2733986 172.2,20.5972385 L172.2,24.799 L176.402761,24.8 C176.699623,24.8 176.945897,25.0254395 176.992183,25.3050318 L177,25.4 C177,25.7313708 176.726601,26 176.402761,26 L171.597239,26 Z" id="Arrow" transform="translate(174.000000, 23.000000) rotate(-45.000000) translate(-174.000000, -23.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

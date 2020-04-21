@@ -5,8 +5,9 @@ module.exports = {
     node: true,
   },
   extends: [
+    'plugin:jest/style',
+    'plugin:jest/recommended',
     'plugin:react/recommended',
-    "plugin:react-hooks/recommended",
     'airbnb',
   ],
   globals: {
@@ -23,9 +24,17 @@ module.exports = {
   },
   plugins: [
     'react',
+    'react-hooks',
     '@typescript-eslint',
+    'jest',
   ],
   rules: {
-    'react/jsx-one-expression-per-line': 0
+    'react/jsx-one-expression-per-line': 0,
+    'react/jsx-filename-extension': 0,
+    'react/prop-types': 0,
+    'import/extensions': 0,
+    'import/no-unresolved': 0,
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn'
   },
 };

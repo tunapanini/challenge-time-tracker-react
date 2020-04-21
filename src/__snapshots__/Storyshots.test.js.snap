@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots App Default 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <div
+      className="wrapper"
+    >
+      <div
+        className="links"
+      >
+        <span
+          className="linkItem"
+        >
+          <a
+            href="#"
+            onClick={[Function]}
+          >
+            Timesheets
+          </a>
+          <span
+            className="activeLine"
+          />
+        </span>
+        <span
+          className="linkItem"
+        >
+          <a
+            href="#"
+            onClick={[Function]}
+          >
+            Expenses
+          </a>
+        </span>
+        <span
+          className="linkItem"
+        >
+          <a
+            href="#"
+            onClick={[Function]}
+          >
+            Management
+          </a>
+        </span>
+      </div>
+      <div
+        className="right"
+      >
+        <img
+          alt=""
+          className="alert"
+          src=""
+        />
+        <div
+          className="profile"
+        >
+          <img
+            alt=""
+            className="avatar"
+            src=""
+          />
+          <div
+            className="info"
+          >
+            <p
+              className="name"
+            >
+              Adam Fisherman
+            </p>
+            <p
+              className="level"
+            >
+               Administrator
+            </p>
+          </div>
+          <button
+            className="arrow"
+            type="button"
+          >
+            Open Profile
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+</div>
+`;
+
+exports[`Storyshots NavigationBar Default 1`] = `
+<div
+  className="wrapper"
+>
+  <div
+    className="links"
+  >
+    <span
+      className="linkItem"
+    >
+      <a
+        href="#"
+        onClick={[Function]}
+      >
+        Timesheets
+      </a>
+      <span
+        className="activeLine"
+      />
+    </span>
+    <span
+      className="linkItem"
+    >
+      <a
+        href="#"
+        onClick={[Function]}
+      >
+        Expenses
+      </a>
+    </span>
+    <span
+      className="linkItem"
+    >
+      <a
+        href="#"
+        onClick={[Function]}
+      >
+        Management
+      </a>
+    </span>
+  </div>
+  <div
+    className="right"
+  >
+    <img
+      alt=""
+      className="alert"
+      src=""
+    />
+    <div
+      className="profile"
+    >
+      <img
+        alt=""
+        className="avatar"
+        src=""
+      />
+      <div
+        className="info"
+      >
+        <p
+          className="name"
+        >
+          Adam Fisherman
+        </p>
+        <p
+          className="level"
+        >
+           Administrator
+        </p>
+      </div>
+      <button
+        className="arrow"
+        type="button"
+      >
+        Open Profile
+      </button>
+    </div>
+  </div>
+</div>
+`;

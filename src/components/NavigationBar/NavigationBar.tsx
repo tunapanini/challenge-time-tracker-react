@@ -1,15 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { Link } from 'react-router-dom';
 import style from './NavigationBar.module.scss';
 
-function NavigationBar() {
-  const [active, setActive] = useState('Timesheets');
-
+function NavigationBar({ pathname }) {
   return (
-    <div className={style.wrapper}>
+    <nav className={style.wrapper}>
       <div className={style.links}>
-        <NavLinkItem hrefLink="#" label="Timesheets" active={active === 'Timesheets'} onClick={() => setActive('Timesheets')} />
-        <NavLinkItem hrefLink="#" label="Expenses" active={active === 'Expenses'} onClick={() => setActive('Expenses')} />
-        <NavLinkItem hrefLink="#" label="Management" active={active === 'Management'} onClick={() => setActive('Management')} />
+        <NavLinkItem hrefLink="/timesheets" label="Timesheets" active={pathname === '/timesheets'} />
+        <NavLinkItem hrefLink="/expenses" label="Expenses" active={pathname === '/expenses'} />
+        <NavLinkItem hrefLink="/management" label="Management" active={pathname === '/management'} />
       </div>
       <div className={style.right}>
         <img className={style.alert} src="" alt="" />
@@ -22,16 +21,14 @@ function NavigationBar() {
           <button type="button" className={style.arrow}>Open Profile</button>
         </div>
       </div>
-    </div>
+    </nav>
   );
 }
 
-function NavLinkItem({
-  hrefLink, label, active, onClick,
-}) {
+function NavLinkItem({ hrefLink, label, active }) {
   return (
     <span className={style.linkItem}>
-      <a href={hrefLink} onClick={onClick}>{label}</a>
+      <Link to={hrefLink}>{label}</Link>
       {active && <span className={style.activeLine} />}
     </span>
   );

@@ -7,7 +7,7 @@ exports[`Storyshots App Default 1`] = `
   <header
     className="App-header"
   >
-    <div
+    <nav
       className="wrapper"
     >
       <div
@@ -17,20 +17,17 @@ exports[`Storyshots App Default 1`] = `
           className="linkItem"
         >
           <a
-            href="#"
+            href="/timesheets"
             onClick={[Function]}
           >
             Timesheets
           </a>
-          <span
-            className="activeLine"
-          />
         </span>
         <span
           className="linkItem"
         >
           <a
-            href="#"
+            href="/expenses"
             onClick={[Function]}
           >
             Expenses
@@ -40,7 +37,7 @@ exports[`Storyshots App Default 1`] = `
           className="linkItem"
         >
           <a
-            href="#"
+            href="/management"
             onClick={[Function]}
           >
             Management
@@ -85,13 +82,16 @@ exports[`Storyshots App Default 1`] = `
           </button>
         </div>
       </div>
-    </div>
+    </nav>
   </header>
+  <h2>
+    Timesheets
+  </h2>
 </div>
 `;
 
-exports[`Storyshots NavigationBar Default 1`] = `
-<div
+exports[`Storyshots NavigationBar Expenses 1`] = `
+<nav
   className="wrapper"
 >
   <div
@@ -101,10 +101,20 @@ exports[`Storyshots NavigationBar Default 1`] = `
       className="linkItem"
     >
       <a
-        href="#"
+        href="/timesheets"
         onClick={[Function]}
       >
         Timesheets
+      </a>
+    </span>
+    <span
+      className="linkItem"
+    >
+      <a
+        href="/expenses"
+        onClick={[Function]}
+      >
+        Expenses
       </a>
       <span
         className="activeLine"
@@ -114,17 +124,7 @@ exports[`Storyshots NavigationBar Default 1`] = `
       className="linkItem"
     >
       <a
-        href="#"
-        onClick={[Function]}
-      >
-        Expenses
-      </a>
-    </span>
-    <span
-      className="linkItem"
-    >
-      <a
-        href="#"
+        href="/management"
         onClick={[Function]}
       >
         Management
@@ -169,5 +169,169 @@ exports[`Storyshots NavigationBar Default 1`] = `
       </button>
     </div>
   </div>
-</div>
+</nav>
+`;
+
+exports[`Storyshots NavigationBar Management 1`] = `
+<nav
+  className="wrapper"
+>
+  <div
+    className="links"
+  >
+    <span
+      className="linkItem"
+    >
+      <a
+        href="/timesheets"
+        onClick={[Function]}
+      >
+        Timesheets
+      </a>
+    </span>
+    <span
+      className="linkItem"
+    >
+      <a
+        href="/expenses"
+        onClick={[Function]}
+      >
+        Expenses
+      </a>
+    </span>
+    <span
+      className="linkItem"
+    >
+      <a
+        href="/management"
+        onClick={[Function]}
+      >
+        Management
+      </a>
+      <span
+        className="activeLine"
+      />
+    </span>
+  </div>
+  <div
+    className="right"
+  >
+    <img
+      alt=""
+      className="alert"
+      src=""
+    />
+    <div
+      className="profile"
+    >
+      <img
+        alt=""
+        className="avatar"
+        src=""
+      />
+      <div
+        className="info"
+      >
+        <p
+          className="name"
+        >
+          Adam Fisherman
+        </p>
+        <p
+          className="level"
+        >
+           Administrator
+        </p>
+      </div>
+      <button
+        className="arrow"
+        type="button"
+      >
+        Open Profile
+      </button>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Storyshots NavigationBar Timesheets 1`] = `
+<nav
+  className="wrapper"
+>
+  <div
+    className="links"
+  >
+    <span
+      className="linkItem"
+    >
+      <a
+        href="/timesheets"
+        onClick={[Function]}
+      >
+        Timesheets
+      </a>
+      <span
+        className="activeLine"
+      />
+    </span>
+    <span
+      className="linkItem"
+    >
+      <a
+        href="/expenses"
+        onClick={[Function]}
+      >
+        Expenses
+      </a>
+    </span>
+    <span
+      className="linkItem"
+    >
+      <a
+        href="/management"
+        onClick={[Function]}
+      >
+        Management
+      </a>
+    </span>
+  </div>
+  <div
+    className="right"
+  >
+    <img
+      alt=""
+      className="alert"
+      src=""
+    />
+    <div
+      className="profile"
+    >
+      <img
+        alt=""
+        className="avatar"
+        src=""
+      />
+      <div
+        className="info"
+      >
+        <p
+          className="name"
+        >
+          Adam Fisherman
+        </p>
+        <p
+          className="level"
+        >
+           Administrator
+        </p>
+      </div>
+      <button
+        className="arrow"
+        type="button"
+      >
+        Open Profile
+      </button>
+    </div>
+  </div>
+</nav>
 `;

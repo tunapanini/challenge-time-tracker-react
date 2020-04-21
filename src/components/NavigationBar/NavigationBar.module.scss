@@ -1,4 +1,4 @@
-@import '../common';
+@import '../../common';
 
 .wrapper {
   position: relative;
@@ -61,7 +61,7 @@
     .avatar {
       width: 46px;
       height: 46px;
-      background-image: url('../assets/avatar.svg');
+      background-image: url('../../assets/avatar.svg');
       margin-right: 10px;
     }
     .name {
@@ -85,13 +85,13 @@
 .notification {
   width: 21px;
   height: 24px;
-  background-image: url('../assets/notification.svg');
+  background-image: url('../../assets/notification.svg');
 }
 
 .arrow {
   width: 8px;
   height: 6px;
-  background-image: url('../assets/arrow.svg');
+  background-image: url('../../assets/arrow.svg');
   background-repeat: no-repeat;
   margin: 4px 0 0 10px;
 }

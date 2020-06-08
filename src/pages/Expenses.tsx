@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Expenses() {
-  return <h2>Expenses</h2>;
+  return <div>Expenses</div>;
 }
 
 export default Expenses;

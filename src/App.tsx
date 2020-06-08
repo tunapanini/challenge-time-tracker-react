@@ -17,7 +17,6 @@ function App() {
         <NavigationBar pathname={location.pathname} />
       </header>
       <Switch>
-        <Redirect path="*" to="/timesheets" />
         <Route path="/timesheets">
           <Timesheets />
         </Route>
@@ -27,9 +26,7 @@ function App() {
         <Route path="/management">
           <Management />
         </Route>
-        <Route path="/">
-          <Timesheets />
-        </Route>
+        <Redirect path="*" to="/timesheets" />
       </Switch>
     </div>
   );

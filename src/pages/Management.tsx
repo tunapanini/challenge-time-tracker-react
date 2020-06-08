@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Management() {
-  return <h2>Management</h2>;
+  return <div>Management</div>;
 }
 
 export default Management;

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://tunapanini.github.io/challenge-time-tracker-react/precache-manifest.e6aa433732648c5a76a6b98ed44aaf4f.js"
+  "https://tunapanini.github.io/challenge-time-tracker-react/precache-manifest.5f7e3040c9aa9ecb2696da76dfbf4da8.js"
 );
 
 self.addEventListener('message', (event) => {

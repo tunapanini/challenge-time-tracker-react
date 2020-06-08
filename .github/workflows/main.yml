@@ -20,6 +20,8 @@ jobs:
         
       - name: Build 🔧
         run: npm run build  # Build Script Here
+        env:
+          PUBLIC_URL: https://tunapanini.github.io/challenge-time-tracker-react
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3

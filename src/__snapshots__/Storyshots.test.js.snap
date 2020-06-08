@@ -22,6 +22,9 @@ exports[`Storyshots App Default 1`] = `
           >
             Timesheets
           </a>
+          <span
+            className="activeLine"
+          />
         </span>
         <span
           className="linkItem"
@@ -84,9 +87,6 @@ exports[`Storyshots App Default 1`] = `
       </div>
     </nav>
   </header>
-  <h2>
-    Timesheets
-  </h2>
 </div>
 `;
 

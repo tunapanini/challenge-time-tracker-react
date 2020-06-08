@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.scss';
-import { useLocation, Route, Switch } from 'react-router-dom';
+import {
+  useLocation, Route, Switch, Redirect,
+} from 'react-router-dom';
 import NavigationBar from './components/NavigationBar/NavigationBar';
 import Expenses from './pages/Expenses';
 import Management from './pages/Management';
@@ -15,6 +17,7 @@ function App() {
         <NavigationBar pathname={location.pathname} />
       </header>
       <Switch>
+        <Redirect path="*" to="/timesheets" />
         <Route path="/timesheets">
           <Timesheets />
         </Route>

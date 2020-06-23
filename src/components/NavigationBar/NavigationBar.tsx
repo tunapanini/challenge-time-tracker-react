@@ -21,7 +21,6 @@ function NavigationBar({ pathname }) {
         <NavLinkItem hrefLink="/management" label="Management" active={pathname === '/management'} onClick={() => toggleNavLinks(false)} />
       </div>
       <div className={style.right}>
-        <img className={style.alert} src="" alt="" />
         <div className={style.profile}>
           <img className={style.avatar} src="" alt="" />
           <div className={style.info}>

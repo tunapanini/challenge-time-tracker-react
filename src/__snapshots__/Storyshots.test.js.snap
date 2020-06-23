@@ -65,11 +65,6 @@ exports[`Storyshots App Default 1`] = `
       <div
         className="right"
       >
-        <img
-          alt=""
-          className="alert"
-          src=""
-        />
         <div
           className="profile"
         >
@@ -167,11 +162,6 @@ exports[`Storyshots NavigationBar Expenses 1`] = `
   <div
     className="right"
   >
-    <img
-      alt=""
-      className="alert"
-      src=""
-    />
     <div
       className="profile"
     >
@@ -264,11 +254,6 @@ exports[`Storyshots NavigationBar Management 1`] = `
   <div
     className="right"
   >
-    <img
-      alt=""
-      className="alert"
-      src=""
-    />
     <div
       className="profile"
     >
@@ -361,11 +346,6 @@ exports[`Storyshots NavigationBar Timesheets 1`] = `
   <div
     className="right"
   >
-    <img
-      alt=""
-      className="alert"
-      src=""
-    />
     <div
       className="profile"
     >

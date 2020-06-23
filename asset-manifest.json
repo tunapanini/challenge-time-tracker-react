@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "https://tunapanini.github.io/challenge-time-tracker-react/static/css/main.e94b5334.chunk.css",
-    "main.js": "https://tunapanini.github.io/challenge-time-tracker-react/static/js/main.3fcbf802.chunk.js",
-    "main.js.map": "https://tunapanini.github.io/challenge-time-tracker-react/static/js/main.3fcbf802.chunk.js.map",
+    "main.css": "https://tunapanini.github.io/challenge-time-tracker-react/static/css/main.da69f670.chunk.css",
+    "main.js": "https://tunapanini.github.io/challenge-time-tracker-react/static/js/main.9619a4b0.chunk.js",
+    "main.js.map": "https://tunapanini.github.io/challenge-time-tracker-react/static/js/main.9619a4b0.chunk.js.map",
     "runtime-main.js": "https://tunapanini.github.io/challenge-time-tracker-react/static/js/runtime-main.2206608b.js",
     "runtime-main.js.map": "https://tunapanini.github.io/challenge-time-tracker-react/static/js/runtime-main.2206608b.js.map",
-    "static/js/2.498cf70d.chunk.js": "https://tunapanini.github.io/challenge-time-tracker-react/static/js/2.498cf70d.chunk.js",
-    "static/js/2.498cf70d.chunk.js.map": "https://tunapanini.github.io/challenge-time-tracker-react/static/js/2.498cf70d.chunk.js.map",
+    "static/js/2.8067ef8b.chunk.js": "https://tunapanini.github.io/challenge-time-tracker-react/static/js/2.8067ef8b.chunk.js",
+    "static/js/2.8067ef8b.chunk.js.map": "https://tunapanini.github.io/challenge-time-tracker-react/static/js/2.8067ef8b.chunk.js.map",
     "index.html": "https://tunapanini.github.io/challenge-time-tracker-react/index.html",
-    "precache-manifest.5f7e3040c9aa9ecb2696da76dfbf4da8.js": "https://tunapanini.github.io/challenge-time-tracker-react/precache-manifest.5f7e3040c9aa9ecb2696da76dfbf4da8.js",
+    "precache-manifest.83df6d41680fef9886b50d27982ac21f.js": "https://tunapanini.github.io/challenge-time-tracker-react/precache-manifest.83df6d41680fef9886b50d27982ac21f.js",
     "service-worker.js": "https://tunapanini.github.io/challenge-time-tracker-react/service-worker.js",
-    "static/css/main.e94b5334.chunk.css.map": "https://tunapanini.github.io/challenge-time-tracker-react/static/css/main.e94b5334.chunk.css.map",
-    "static/js/2.498cf70d.chunk.js.LICENSE.txt": "https://tunapanini.github.io/challenge-time-tracker-react/static/js/2.498cf70d.chunk.js.LICENSE.txt",
+    "static/css/main.da69f670.chunk.css.map": "https://tunapanini.github.io/challenge-time-tracker-react/static/css/main.da69f670.chunk.css.map",
+    "static/js/2.8067ef8b.chunk.js.LICENSE.txt": "https://tunapanini.github.io/challenge-time-tracker-react/static/js/2.8067ef8b.chunk.js.LICENSE.txt",
     "static/media/NavigationBar.module.scss": "https://tunapanini.github.io/challenge-time-tracker-react/static/media/notification.cd02f2b0.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.2206608b.js",
-    "static/js/2.498cf70d.chunk.js",
-    "static/css/main.e94b5334.chunk.css",
-    "static/js/main.3fcbf802.chunk.js"
+    "static/js/2.8067ef8b.chunk.js",
+    "static/css/main.da69f670.chunk.css",
+    "static/js/main.9619a4b0.chunk.js"
   ]
 }

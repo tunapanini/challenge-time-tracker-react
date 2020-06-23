@@ -9,12 +9,23 @@
   align-items: center;
   box-shadow: 0 1px 2px 3px #eff6ff;
 }
-
+.toggler {
+  position: absolute;
+  left: 30px;
+  display: flex;
+  cursor: pointer;
+}
 .links {
-  display: inline-flex;
-  flex-direction: row;
+  display: none;
+  flex-direction: column;
   justify-content: center;
-  height: 70px;
+  position: fixed;
+  top: 70px; 
+  width: 100%;
+  background-color: #eff6ff;
+  &.open {
+    display: inline-flex;
+  }
   .linkItem {
     display: flex;
     flex-direction: column;
@@ -34,15 +45,17 @@
         background-color: #538fff;
       }
     }
-    .activeLine {
-      position: absolute;
-      bottom: 0;
-      width: 80px;
-      height: 3px;
-      border-radius: 17px;
-      background-color: #538fff;
-    }
   }
+}
+
+.activeLine {
+  position: absolute;
+  bottom: 0;
+  display: none;
+  width: 80px;
+  height: 3px;
+  border-radius: 17px;
+  background-color: #538fff;
 }
 
 .right {
@@ -51,9 +64,6 @@
   margin: auto 0;
   display: flex;
   align-items: center;
-  .notification {
-    margin-right: 23px;
-  }
   .profile {
     display: flex;
     align-items: center;
@@ -82,7 +92,8 @@
   }
 }
 
-.notification {
+.alert {
+  margin-right: 23px;
   width: 21px;
   height: 24px;
   background-image: url('../../assets/notification.svg');
@@ -94,4 +105,20 @@
   background-image: url('../../assets/arrow.svg');
   background-repeat: no-repeat;
   margin: 4px 0 0 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .toggler {
+    display: none;
+  }
+  .links{
+    flex-direction: row;
+    position: static;
+    height: 70px;
+    display: inline-flex;
+    background-color: transparent;
+  }
+  .activeLine {
+    display: block;
+  }
 }
